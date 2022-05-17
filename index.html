@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -18,14 +19,14 @@
             <img src="logos/ampire-logo.png" alt="ampire">
         </div>
         <ul class="items">
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#">About</a></li>
-            <li> <a href="#">Portfolio</a></li>
-            <li> <a href="#">Contact</a></li>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <section class="home">
+    <section id="home">
         <div class="block1">
             <p>Hello I'm</p>
             <h1>Arshad Mahemood Patel</h1>
@@ -41,19 +42,22 @@
 
     </section>
 
-    <section class="about">
+    <section id="about">
         <h1>About</h1>
         <div class="aboutinfo">
-            <p>I am a student at Malla Reddy Engineering College pursuing B.Tech Degree in Computer Science. I am passionate
-            about pursuing my major in Information Technology and Computer Science. I am currently learning and
-            exploring various fields of Technology.
-            <br><br>
-            I enjoy solving problems, researching and developing GUI based applications while learning and exploring a
-            Language. I am also interested in building projects as per requirements. I am a quick learner with fun and
-            waiting to get a heavy project to work on and Experience a new Experience.
-        </p>
+            <p>I am a student at Malla Reddy Engineering College pursuing B.Tech Degree in Computer Science. I am
+                passionate
+                about pursuing my major in Information Technology and Computer Science. I am currently learning and
+                exploring various fields of Technology.
+                <br><br>
+                I enjoy solving problems, researching and developing GUI based applications while learning and exploring
+                a
+                Language. I am also interested in building projects as per requirements. I am a quick learner with fun
+                and
+                waiting to get a heavy project to work on and Experience a new Experience.
+            </p>
         </div>
-        
+
         <h2>Skills</h2>
         <ul class="skills">
             <li><a href="#">C</a></li>
@@ -65,7 +69,7 @@
         </ul>
         <h2>Education</h2>
         <div class="education">
-            <div class="edu1" id = "edus">
+            <div class="edu1" id="edus">
                 <img src="logos/mrec-logo.png" alt="">
                 <div class="info">
                     <h3>Bachelor of Technology - BTech, Computer Science</h3>
@@ -75,7 +79,7 @@
 
             </div>
 
-            <div class="edu2"id = "edus">
+            <div class="edu2" id="edus">
                 <img src="logos/nryna-logo.png" alt="">
                 <div class="info">
                     <h3>Intermediate- MPC</h3>
@@ -85,7 +89,7 @@
 
             </div>
 
-            <div class="edu3"id = "edus">
+            <div class="edu3" id="edus">
                 <img src="logos/shs-logo.png" alt="">
                 <div class="info">
                     <h3>SSC</h3>
@@ -97,7 +101,7 @@
 
         </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio">
         <h1>Portfolio</h1>
         <h2>On Going Projects....</h2>
         <div class="curr-proj">
@@ -140,6 +144,46 @@
                 <h3>Algorithms</h3>
             </div>
         </div>
+    </section>
+    <section id="contact">
+        <div class="heading">
+            <h1>Contact</h1>
+        </div>
+
+        <div class="contact-block">
+            <div class="inputs">
+
+                <div id="input2">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div id="input2">
+                    <input type="text" placeholder="E-mail" required>
+                </div>
+                <div id="input2">
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+
+                <div class="buttons">
+                    <a href="#"><button>Send Message</button></a>
+                </div>
+
+
+
+            </div>
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p>arshad.amp432@gmail.com</p>
+                <h3>Connect me on</h3>
+                <div class="social-links">
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-github"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 </body>
