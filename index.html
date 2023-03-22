@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ampire</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -14,14 +15,15 @@
 </head>
 
 <body>
+    
     <nav>
         <div class="logo">
-            <img src="logos/ampire-logo.png" alt="ampire">
+            <img src="logos/arshad-logo.png" alt="ampire">
         </div>
         <ul class="items">
             <li> <a href="#home">Home</a></li>
             <li> <a href="#about">About</a></li>
-            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#portfolio">Projects</a></li>
             <li> <a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -39,7 +41,6 @@
         <div class="block2">
             <img src="logos/profile.png" alt="">
         </div>
-
     </section>
 
     <section id="about">
@@ -56,8 +57,7 @@
                 and
                 waiting to get a heavy project to work on and Experience a new Experience.
             </p>
-        </div>
-
+        </div> 
         <h2>Skills</h2>
         <ul class="skills">
             <li><a href="#">C</a></li>
@@ -96,63 +96,126 @@
                     <h4>Sharada High School</h4>
                     <p>2008-2018</p>
                 </div>
-
             </div>
-
         </div>
     </section>
+
     <section id="portfolio">
-        <h1>Portfolio</h1>
-        <h2>On Going Projects....</h2>
-        <div class="curr-proj">
-            <div id="projs">
-                <img src="logos/irctc-logo.png" alt="">
-                <h3>Booking System</h3>
-            </div>
-            <div id="projs">
-                <img src="logos/attendance.ico" alt="">
-                <h3>Attendance Analyzer 2.0</h3>
-            </div>
-        </div>
-        <h2>Projects Completed!!</h2>
+        <h1>Projects</h1>
         <div class="comp-proj">
             <div id="projs">
                 <img src="logos/Ampire.png" alt="">
-                <h3>Portfolio</h3>
+                <div class="design" onclick="portfolio()">
+                    <h3>Portfolio</h3>
+                    <p>It is a personal website which describes about me. It is page where I store all the details
+                        related to my projects and achievements. I built this page using HTML, CSS and Javascript. I add
+                        new changes to this page related to design of this page or add new projects on the list.
+                    </p>
+                </div>
             </div>
             <div id="projs">
-                <img src="logos/hackerrank-logo.png" alt="">
-                <h3>Clone</h3>
+                <img src="logos/digital-clock.png" alt="">
+                <div class="design" onclick="digitalClock()">
+                    <h3>Digital Clock</h3>
+                    <p>This is a Digital Clock application which not only shows time but also has features such as
+                        Stopwatch and Timer. When we run the application it displays the current time which has
+                        hours:minutes:seconds and also includes current date and day. This frame consists of two buttons
+                        Stopwatch and Timer. On clicking StopWatch the application displays stopwatch and on clicking
+                        timer the application displays timer.
+                    </p>
+                </div>
+            </div>
+            <div id="projs">
+                <img src="logos/tic-tac-toe.jpg" alt="">
+                <div class="design" onclick="ticTacToe()">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>This is a Tic-Tac-Toe game application in which two players can play the game comfortably. The
+                        game is made using different color indications and also with the instruction panel which states
+                        whose turn is this or right now. If any one of the player wins the game then the row or column
+                        or diagonal color is turned green and game stops. "X" and "O" are not fixed each time you play
+                        the game, this program takes help of random function of Random class of java to generate two
+                        values based on which the first turn i.e, "X" or "O" is decided.
+                    </p>
+                </div>
             </div>
             <div id="projs">
                 <img src="logos/attendance.ico" alt="">
-                <h3>Attendance Analyzer</h3>
+                <div class="design" onclick="attendanceAnalyzer()">
+                    <h3>Attendance Analyzer</h3>
+                    <p>Attendance Analyzer is a simple Python GUI (Graphical User
+                        Interface) based project. It developed for daily student attendance
+                        in schools, colleges and institutes. It facilitates to access the
+                        attendance information of a particular student in a particular class.
+                        It displays the Attendance of students with colour indication Red
+                        colour indicates percentage below 75, Yellow colour indicates percentage between 75-85% and
+                        Green for above 85%.
+                    </p>
+                </div>
             </div>
             <div id="projs">
                 <img src="logos/bank-logo.png" alt="">
-                <h3>Bank Application</h3>
+                <div class="design" onclick="bankApplication()">
+                    <h3>Bank Application</h3>
+                    <p>It's a Python GUI based project which is based on file system in which we store data related to
+                        customers who can access their account with id and password and can to transactions.
+                        It includes special functions like Deposit, Withdraw and Current
+                        Balance Checker.
+                    </p>
+                </div>
             </div>
-        </div>
-        <h2>Research Work</h2>
-        <div class="research">
             <div id="projs">
-                <img src="logos/ds-logo.png" alt="">
-                <h3>Data Structures</h3>
+                <img src="logos/login-reg.png" alt="">
+                <div class="design" onclick="logRegForm()">
+                    <h3>Login/Registration</h3>
+                    <p>It is a application built in Java using Java Swings. It is a desktop application where users need
+                        to register themselves initially and login using the id, password which they created while
+                        registering. And then the details of the user are displayed on the screen. In this project I
+                        used mysql database to store details of users. This application helps users to make their unique
+                        and register with the application.
+                    </p>
+                </div>
             </div>
             <div id="projs">
-                <img src="logos/algorithms-logo.png" alt="">
-                <h3>Algorithms</h3>
+                <img src="logos/sgpa-calculator.png" alt="">
+                <div class="design" onclick="sgpaCalc()">
+                    <h3>SGPA Calculator</h3>
+                    <p>It is a Calculator where students can calculate their SGPA and verify their results. It is a
+                        responsive web page built in HTML, CSS and Javascript. The user needs to enter the number of
+                        subjects for which he/she wants to calculate the sgpa and then enter the respective subject
+                        grades and click on submit. The backend logic is written in Javascript which calculates the
+                        result based on the input provided and displays the result on the screen.
+                    </p>
+                </div>
+            </div>
+            <div id="projs">
+                <img src="logos/hackerrank-logo.png" alt="">
+                <div class="design" onclick="hackerrank()">
+                    <h3>Hackerrank Clone</h3>
+                    <p>It's a clone of Hackerrank Website. I tried to build this page similar to hackerrank dashboard.
+                        It is a non-responsive page, and can be seen only on laptop/desktop screens. I tried this page
+                        while learning HTML and CSS. 
+                    </p>
+                </div>
+            </div>
+            <div id="projs">
+                <img src="logos/simple-interest.png" alt="">
+                <div class="design" onclick="simpleInterestCalc()">
+                    <h3>Simple Interest Calc</h3>
+                    <p>It is a page which is designed using HTML, CSS, Javascript. It is a Simple Interest Calculator
+                        used to calculate the interest on an amount based on rate of interest, time duration. It is a
+                        project made for practice purpose when I was learning HTML, CSS, Javascript.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
+
     <section id="contact">
         <div class="heading">
             <h1>Contact</h1>
         </div>
-
         <div class="contact-block">
             <div class="inputs">
-
                 <div id="input2">
                     <input type="text" placeholder="Name" required>
                 </div>
@@ -162,28 +225,23 @@
                 <div id="input2">
                     <textarea placeholder="Message" required></textarea>
                 </div>
-
                 <div class="buttons">
                     <a href="#"><button>Send Message</button></a>
                 </div>
-
-
-
             </div>
             <div class="contact-info">
                 <h3>Email</h3>
                 <p>arshad.amp432@gmail.com</p>
                 <h3>Connect me on</h3>
                 <div class="social-links">
-                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="https://www.linkedin.com/in/arshad-m-patel-57a751229/" class="fa fa-linkedin"></a>
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-github"></a>
+                    <a href="https://github.com/arshadpatel" class="fa fa-github"></a>
                     <a href="#" class="fa fa-instagram"></a>
                 </div>
             </div>
         </div>
-
     </section>
 
 </body>
