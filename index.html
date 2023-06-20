@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ampire</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -15,10 +14,10 @@
 </head>
 
 <body>
-    
+
     <nav>
         <div class="logo">
-            <img src="logos/arshad-logo.png" alt="ampire">
+            <img src="logos/ampire-logo.png" alt="ampire">
         </div>
         <ul class="items">
             <li> <a href="#home">Home</a></li>
@@ -32,7 +31,7 @@
         <div class="block1">
             <p>Hello I'm</p>
             <h1>Arshad Mahemood Patel</h1>
-            <h2>Programming Enthusiast | Student</h2>
+            <h2><span id="element"></span></h2>
             <div class="buttons">
                 <a href="#about"><button>More About Me</button></a>
                 <a href="#contact"><button>Conatact Me</button></a>
@@ -57,16 +56,19 @@
                 and
                 waiting to get a heavy project to work on and Experience a new Experience.
             </p>
-        </div> 
+        </div>
         <h2>Skills</h2>
         <ul class="skills">
             <li><a href="#">C</a></li>
             <li><a href="#">Java</a></li>
             <li><a href="#">Python</a></li>
+            <li><a href="#">Data Structures</a></li>
+            <li><a href="#">Algorithms</a></li>
             <li><a href="#">HTML5</a></li>
             <li><a href="#">CSS</a></li>
             <li><a href="#">Javascript</a></li>
-            <li><a href="#">MySQL</a></li>
+            <li><a href="#">NodeJs</a></li>
+            <li><a href="#">ExpressJs</a></li>
         </ul>
         <h2>Education</h2>
         <div class="education">
@@ -194,7 +196,7 @@
                     <h3>Hackerrank Clone</h3>
                     <p>It's a clone of Hackerrank Website. I tried to build this page similar to hackerrank dashboard.
                         It is a non-responsive page, and can be seen only on laptop/desktop screens. I tried this page
-                        while learning HTML and CSS. 
+                        while learning HTML and CSS.
                     </p>
                 </div>
             </div>
@@ -227,7 +229,7 @@
                     <textarea placeholder="Message" required></textarea>
                 </div>
                 <div class="buttons">
-                    <a href="#"><button>Send Message</button></a>
+                    <a href="mailto:arshad.amp432@gmail.com"><button>Send Message</button></a>
                 </div>
             </div>
             <div class="contact-info">
@@ -245,6 +247,8 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

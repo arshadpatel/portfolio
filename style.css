@@ -7,7 +7,8 @@
 }
 
 body {
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    /* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
+    background: #00DDFF;
     height: 100vh;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -26,7 +27,7 @@ nav {
 }
 
 .logo img {
-    height: 50px;
+    height: 70px;
 }
 
 .items {
@@ -101,8 +102,8 @@ section {
 }
 
 .block2 img {
-    border-radius: 50%;
-    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    max-width: 80%;
+    height: auto;
 }
 
 #about {
@@ -146,6 +147,8 @@ section {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
     margin: 15px;
 }
 
@@ -159,7 +162,7 @@ section {
     text-decoration: none;
     border-radius: 10px;
     padding: 4px 15px;
-    margin: 0px 5px;
+    /* margin: 100px 5px; */
 }
 
 .education {
@@ -260,6 +263,7 @@ section {
 
 #projs:hover {
     background-color: white;
+    /* width: 860px; */
 }
 
 #projs:hover h3 {
