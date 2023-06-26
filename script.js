@@ -6,8 +6,16 @@ function digitalClock() {
     window.location.href = "https://arshadpatel.github.io/digital-clock/";
 }
 
+function blogExpress(){
+    window.location.href = "https://blogexpress-19gl.onrender.com/";
+}
+
 function ticTacToe() {
     window.location.href = "https://arshadpatel.github.io/tic-tac-toe/";
+}
+
+function expressDBPortal(){
+    window.location.href = "https://arshadpatel.github.io/ExpressDBPortal/";
 }
 
 function attendanceAnalyzer() {
@@ -36,5 +44,5 @@ function simpleInterestCalc() {
 
 var typed = new Typed('#element', {
     strings: ['Student', 'Developer', 'Programming Enthusiast'],
-    typeSpeed: 50,
+    typeSpeed: 40,
 });
