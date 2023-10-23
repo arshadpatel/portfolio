@@ -6,6 +6,10 @@ function digitalClock() {
     window.location.href = "https://arshadpatel.github.io/digital-clock/";
 }
 
+function taskRemainder(){
+    window.location.href = "https://arshadpatel.github.io/task-remainder-through-email/";
+}
+
 function blogExpress(){
     window.location.href = "https://blogexpress-19gl.onrender.com/";
 }
