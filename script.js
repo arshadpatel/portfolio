@@ -2,6 +2,18 @@ function portfolio() {
     window.location.href = "https://arshadpatel.github.io/portfolio/";
 }
 
+function onlineExam(){
+    window.location.href = "https://arshadpatel.github.io/online-exam-app/";
+}
+
+function weatherApp(){
+    window.location.herf = "https://arshadpatel.github.io/weather-app/";
+}
+
+function crudApp(){
+    window.location.herf = "https://arshadpatel.github.io/CRUD-App-using-JDBC/";
+}
+
 function digitalClock() {
     window.location.href = "https://arshadpatel.github.io/digital-clock/";
 }
@@ -47,6 +59,6 @@ function simpleInterestCalc() {
 }
 
 var typed = new Typed('#element', {
-    strings: ['Student', 'Developer', 'Programming Enthusiast'],
+    strings: ['Tech Enthusiast', 'Passionate Problem Solver', 'Java, Python, Web Development', 'Open-Source Contributor', 'Turning Ideas into Impactful Solutions'],
     typeSpeed: 40,
 });
